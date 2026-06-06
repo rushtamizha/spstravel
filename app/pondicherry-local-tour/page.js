@@ -100,7 +100,7 @@ export default function Page() {
               href="tel:+919342991455"
               className="inline-flex items-center gap-2 rounded-full border border-green-200 bg-white px-5 py-3 text-sm font-semibold text-slate-700 shadow-sm transition hover:bg-green-50"
             >
-              <Phone size={16} /> Call Us +91 93429 91455
+              <Phone size={16} /> Call Us +91 9677792455
             </a>
             <Link
               href="https://wa.me/919342991455"
@@ -216,7 +216,7 @@ export default function Page() {
               href="tel:+919342991455"
               className="inline-flex items-center gap-2 rounded-full border border-green-200 bg-white px-5 py-3 text-sm font-semibold text-slate-700 transition hover:bg-green-50"
             >
-              <Phone size={16} /> Call Us +91 93429 91455
+              <Phone size={16} /> Call Us +91 9677792455
             </a>
             <Link
               href="https://wa.me/919342991455"

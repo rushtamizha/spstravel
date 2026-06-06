@@ -64,15 +64,17 @@ export default function Footer() {
             <div className="mt-6 space-y-3 text-sm text-white/75">
               <a href="tel:+919342991455" className="flex items-center gap-3 transition hover:text-green-300">
                 <Phone size={16} className="text-green-400" />
-                +91 93429 91455
+                +91 9677792455
               </a>
-              <a href="mailto:bookings@greentravel.com" className="flex items-center gap-3 transition hover:text-green-300">
+              <a href="mailto:greentoursandtravels.in@gmail.com
+" className="flex items-center gap-3 transition hover:text-green-300">
                 <Mail size={16} className="text-green-400" />
-                bookings@greentravel.com
+                greentoursandtravels.in@gmail.com
+
               </a>
               <div className="flex items-start gap-3 text-white/75">
                 <MapPin size={16} className="mt-0.5 text-green-400" />
-                <span>Chennai, Tamil Nadu, India</span>
+                <span>Periyamudhaliyar Chavad, <br/>Periyamudaliyar Chavadi, <br/>Tamil Nadu 605104</span>
               </div>
             </div>
 
@@ -123,10 +125,10 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-[0.22em] text-green-300">
+            <h4 className="text-sm font-semibold uppercase tracking-[0.22em] text-green-300 hidden ">
               Social
             </h4>
-            <div className="mt-5 space-y-3">
+            <div className="mt-5 space-y-3 hidden">
               {socials.map((item) => {
                 const Icon = item.icon;
                 return (
@@ -149,7 +151,7 @@ export default function Footer() {
         <div className="mt-14 border-t border-white/10 pt-6">
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
             <p className="text-sm text-white/55">
-              © {currentYear} greenTravel. All rights reserved.
+              © {currentYear} Green tours and travels. All rights reserved.
             </p>
             <p className="text-sm text-white/55">
               Premium travel booking with reliable service and smooth rides.

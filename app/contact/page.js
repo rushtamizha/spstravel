@@ -66,7 +66,7 @@ export default function ContactPage() {
             </p>
 
             <div className="mt-8 space-y-4">
-              <ContactItem icon={Phone} label="Phone" value="+91 93429 91455" href="tel:+919342991455" />
+              <ContactItem icon={Phone} label="Phone" value="+91 9677792455" href="tel:+919342991455" />
               <ContactItem icon={Mail} label="Email" value="bookings@greentravel.com" href="mailto:bookings@greentravel.com" />
               <ContactItem icon={MapPin} label="Location" value="Chennai, Tamil Nadu" href="#" />
             </div>

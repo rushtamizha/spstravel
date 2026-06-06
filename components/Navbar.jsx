@@ -74,13 +74,13 @@ export default function Navbar() {
           <div className="rounded-full bg-white px-4 sm:px-5">
             <div className="flex h-16 items-center justify-between gap-3">
               <Link href="/" className="flex items-center gap-3 group">
-                <motion.div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br  text-white shadow-lg">
+                <motion.div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br  text-white shadow-lg ">
                  <img src="/logo.jpg" alt="" className="object-cover h-full w-full rounded-full " />
                 </motion.div>
 
                 <div className="leading-tight">
                   <motion.div className="text-sm font-semibold  text-slate-900 uppercase">
-                    Greens Tours & Travels
+                    Green Tours & Travels
                   </motion.div>
                   <motion.div
                     style={{ opacity: logoOpacity }}
