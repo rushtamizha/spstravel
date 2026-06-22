@@ -524,7 +524,7 @@ const FLEETS = [
     id: "tempo18",
     name: "18-Seater Tempo",
     priceOneWay: null,
-    priceRoundTrip: "₹40/km",
+    priceRoundTrip: "₹28/km",
     capacity: "17 passengers",
     luggage: "10+ bags",
     driverBeta: "₹1000",
@@ -628,8 +628,8 @@ export default function Hero() {
 
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-white via-green-50 to-white">
-      <div className="absolute inset-0 bg-gradient-to-r from-emerald-700/10" />
+    <section className="relative overflow-hidden bg-gradient-to-b from-green-900 via-green-100 to-green-900">
+      <div className="absolute inset-0 bg-gradient-to-r from-emerald-700" />
       <div className={`absolute inset-x-0 top-0 h-full`}>
         <img src="/routes/Thanjavur.jpg" className="object-cover h-full w-full opacity-20" alt="" />
       </div>
@@ -669,15 +669,15 @@ export default function Hero() {
           variants={fadeUp}
           transition={{ duration: 0.6 }}
           className="relative z-10 max-w-2xl">
-          <span className="inline-flex items-center gap-2 rounded-full border border-green-200 bg-white/80 px-4 py-2 text-sm text-green-600 shadow-sm backdrop-blur">
+          <span className="inline-flex items-center gap-2 rounded-full border border-green-200 bg-white px-4 py-2 text-xs text-green-600 shadow-sm backdrop-blur">
             <Clock3 size={14} /> 24/7 travel bookings with instant WhatsApp confirmation
           </span>
 
-          <h1 className="mt-6 text-2xl  md:text-4xl font-semibold tracking-tight text-emerald-800 uppercase">
+          <h1 className="mt-6 text-2xl  md:text-4xl font-semibold tracking-tight text-white uppercase">
             Luxury rides, smooth bookings
           </h1>
 
-          <p className="mt-5 max-w-xl text-base leading-7 text-black sm:text-lg">
+          <p className="mt-5 max-w-xl text-base leading-7 text-white sm:text-lg">
             Book one-way or round-trip cabs with a clean premium interface, animated travel visuals, and a fast booking form built for conversion.
           </p>
 

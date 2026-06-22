@@ -84,7 +84,7 @@ const FLEETS = [
   {
     id: "tempo18",
     name: "18-Seater Tempo",
-    priceRoundTrip: "₹40/km",
+    priceRoundTrip: "₹28/km",
     capacity: "17 passengers",
     luggage: "10+ bags",
     driverBeta: "₹1000",
